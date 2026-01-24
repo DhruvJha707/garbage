@@ -1,3 +1,5 @@
+// without using any other paramater 
+
 #include<stdio.h>
 
 void increasing(int n){

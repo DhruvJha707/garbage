@@ -6,6 +6,9 @@ int main(){
 
     int max = arr[0];
 
+    int smax = arr[0];
+
+
     for(int i = 1 ; i<=6 ; i++){
         if(max<arr[i]){
             max = arr[i];
@@ -13,7 +16,9 @@ int main(){
     }
 
 
+
+
     printf("max %d",max);
-    
+
     return 0;
 }
